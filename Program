@@ -1,0 +1,50 @@
+import java.applet.*;
+import java.awt.*;
+
+public class Snowman extends Applet {
+
+public void paint(Graphics page)
+{
+	setSize(500,600);
+	setBackground(Color.GRAY);
+	page.setColor(Color.LIGHT_GRAY);
+	page.fillRect(0, 550, 500, 50);
+	page.setColor(Color.WHITE);
+	page.fillOval(175,375,175,175);
+	page.setColor(Color.WHITE);
+	page.fillOval(185, 235, 150, 150);
+	page.setColor(Color.WHITE);
+	page.fillOval(195, 120, 125, 125);
+	page.setColor(Color.BLACK);
+	page.fillRect(185, 120, 150, 20);
+	page.setColor(Color.BLACK);
+	page.fillRect(208, 10, 100, 110);
+	page.setColor(Color.BLACK);
+	page.fillOval(220, 170, 10, 10);
+	page.setColor(Color.BLACK);
+	page.fillOval(280, 170, 10, 10);
+	page.setColor(Color.ORANGE);
+	page.fillArc(165, 150, 100, 100, 10, 10);
+	page.setColor(Color.BLACK);
+	page.drawArc(205,115,100,100,250,45);
+	page.setColor(Color.BLACK);
+	page.fillRect(125, 300, 60, 5);
+	page.setColor(Color.BLACK);
+	page.fillRect(335, 300, 60, 5);
+	page.setColor(Color.RED);
+	page.fillOval(255,260,10,10);
+	page.setColor(Color.ORANGE);
+	page.fillOval(255,300,10,10);
+	page.setColor(Color.YELLOW);
+	page.fillOval(255,340,10,10);
+	page.setColor(Color.GREEN);
+	page.fillOval(255,400,10,10);
+	page.setColor(Color.BLUE);
+	page.fillOval(255,440,10,10);
+	page.setColor(Color.MAGENTA);
+	page.fillOval(255,480,10,10);
+}
+
+}
+
+
